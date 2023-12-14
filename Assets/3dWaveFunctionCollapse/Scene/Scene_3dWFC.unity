@@ -320,7 +320,7 @@ PrefabInstance:
     - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
       propertyPath: backupTile
       value: 
-      objectReference: {fileID: 3888592491226765773, guid: b9fec2880bfc50349b5dae9331a379ba, type: 3}
+      objectReference: {fileID: -1624467473226260811, guid: fc5e50559f9c77b45a493afca2adfd2e, type: 3}
     - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
       propertyPath: worldSize.x
       value: 10
@@ -329,6 +329,74 @@ PrefabInstance:
       propertyPath: worldSize.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[0]
+      value: 
+      objectReference: {fileID: 4777005504321032356, guid: 01d4f5b66bd6d3c4a9ff3e750196f489, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[1]
+      value: 
+      objectReference: {fileID: 5752887844176795661, guid: 91d57a90c3cd5af4a8829d3e0f907fb9, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[2]
+      value: 
+      objectReference: {fileID: 5395359806937453978, guid: 020d88f2b116a764cb0f2348b009f7fa, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[3]
+      value: 
+      objectReference: {fileID: 3948344452204173758, guid: 8a1557a0bdbc35a4d9080acc892bf28e, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[4]
+      value: 
+      objectReference: {fileID: -530588883398204990, guid: fd9987e66a04b644b9f9f3b77ffd412f, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[5]
+      value: 
+      objectReference: {fileID: 5618904593404926518, guid: e58981ea76da05a4d9dd316b2a982b81, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[6]
+      value: 
+      objectReference: {fileID: 6075160416681524264, guid: e181c58aaabc79d43865a432bfb8b222, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[7]
+      value: 
+      objectReference: {fileID: 9217253334818404598, guid: 8b370cabd2967a746bf0f4e162e27e91, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[8]
+      value: 
+      objectReference: {fileID: -1624467473226260811, guid: fc5e50559f9c77b45a493afca2adfd2e, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[9]
+      value: 
+      objectReference: {fileID: -927900943077745704, guid: e0b0f41bc198d2641bd96bdb95c3dcf5, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[10]
+      value: 
+      objectReference: {fileID: 7422150161704089025, guid: bd7220552db19c649bcdaffd0503ed93, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[11]
+      value: 
+      objectReference: {fileID: 4283666533933929056, guid: 736774722b220f74ba4de86c3c869a94, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[12]
+      value: 
+      objectReference: {fileID: 5244312854499393133, guid: a622cd698f39f7e4dab045eaa6a04979, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[13]
+      value: 
+      objectReference: {fileID: 8601749238772243794, guid: fe2d75cf17fa0e3488f7d204ab3918f2, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[14]
+      value: 
+      objectReference: {fileID: 3814137311009898355, guid: 47a05f74bb8a546438436377b69ebc80, type: 3}
+    - target: {fileID: 1576320070377696868, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
+      propertyPath: tileOptions.Array.data[15]
+      value: 
+      objectReference: {fileID: 2193679970896822283, guid: ce352bea8657cf1429aa58a17afdecf8, type: 3}
     - target: {fileID: 3280773047710934542, guid: f897abd62a82f874e9d04c4a4c9beee2, type: 3}
       propertyPath: m_Name
       value: WaveFunctionGenerator
