@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6284510630032196926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4891874812415894424}
+  - component: {fileID: 1658165812527502049}
+  m_Layer: 0
+  m_Name: TileLookupTable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4891874812415894424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284510630032196926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1658165812527502049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6284510630032196926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afad972f4f47aec4b8fd74d87efba7c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileNeighbours:
+  - tile: {fileID: 4777005504321032356, guid: 01d4f5b66bd6d3c4a9ff3e750196f489, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 5752887844176795661, guid: 91d57a90c3cd5af4a8829d3e0f907fb9, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 5395359806937453978, guid: 020d88f2b116a764cb0f2348b009f7fa, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 3948344452204173758, guid: 8a1557a0bdbc35a4d9080acc892bf28e, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: -530588883398204990, guid: fd9987e66a04b644b9f9f3b77ffd412f, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 5618904593404926518, guid: e58981ea76da05a4d9dd316b2a982b81, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 6075160416681524264, guid: e181c58aaabc79d43865a432bfb8b222, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 9217253334818404598, guid: 8b370cabd2967a746bf0f4e162e27e91, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: -1624467473226260811, guid: fc5e50559f9c77b45a493afca2adfd2e, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: -927900943077745704, guid: e0b0f41bc198d2641bd96bdb95c3dcf5, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 7422150161704089025, guid: bd7220552db19c649bcdaffd0503ed93, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 4283666533933929056, guid: 736774722b220f74ba4de86c3c869a94, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 5244312854499393133, guid: a622cd698f39f7e4dab045eaa6a04979, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 8601749238772243794, guid: fe2d75cf17fa0e3488f7d204ab3918f2, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 3814137311009898355, guid: 47a05f74bb8a546438436377b69ebc80, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
+  - tile: {fileID: 2193679970896822283, guid: ce352bea8657cf1429aa58a17afdecf8, type: 3}
+    upNeighbour: []
+    rightNeighbour: []
+    downNeighbour: []
+    leftNeighbour: []
