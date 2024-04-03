@@ -68,7 +68,7 @@ public class WaveFunctionCollapse : MonoBehaviour
 
         //Then we create the tile
         Tile foundTile = cellToCollapse.tileOptions[0];
-        Instantiate(foundTile, cellToCollapse.transform.position, cellToCollapse.transform.rotation, cellToCollapse.transform);
+        Instantiate(foundTile, cellToCollapse.transform);
 
         //And finally update the next generation based on the result of the collapsing cell
         UpdateGeneration();
@@ -122,11 +122,11 @@ public class WaveFunctionCollapse : MonoBehaviour
 
                     if (x < width - 1)
                     {
-                        Cell left = grid[x + 1 + y * width];
+                        Cell right = grid[x + 1 + y * width];
                         List<Tile> validOptions = new List<Tile>();
 
                         //We get all possible options for the tile above for any neighbours in the opposite direction from where we are looking at
-                        foreach (Tile possibleTiles in left.tileOptions)
+                        foreach (Tile possibleTiles in right.tileOptions)
                         {
                             var validOption = Array.FindIndex(tileOptions, obj => obj == possibleTiles);
                             var valid = tileOptions[validOption].rightNeighbour;
@@ -158,11 +158,11 @@ public class WaveFunctionCollapse : MonoBehaviour
 
                     if (x > 0)
                     {
-                        Cell right = grid[x - 1 + y * width];
+                        Cell left = grid[x - 1 + y * width];
                         List<Tile> validOptions = new List<Tile>();
 
                         //We get all possible options for the tile above for any neighbours in the opposite direction from where we are looking at
-                        foreach (Tile possibleTiles in right.tileOptions)
+                        foreach (Tile possibleTiles in left.tileOptions)
                         {
                             var validOption = Array.FindIndex(tileOptions, obj => obj == possibleTiles);
                             var valid = tileOptions[validOption].leftNeighbour;
